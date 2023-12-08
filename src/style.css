@@ -1,0 +1,66 @@
+body{
+  background: linear-gradient(#e66465, #9198e5);
+}
+.app {
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 30px;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px; 
+  padding: 5px;  
+  overflow: auto;
+}
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 20px;
+  justify-content: flex-start;
+  margin-bottom: 6px;
+  padding: 5px 10px;
+}
+
+input[type='text'] {
+  margin: 10px 0px;
+  padding: 10px;
+  width: 80%;
+}
+
+input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.delete {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 5%;
+  color: red;
+  cursor: pointer;
+
+}
+
+a {
+ 
+  color: white;
+  font-size: 50px;
+  
+  
+}
+
+button {
+  padding: 10px;
+  border-radius: 6px;
+  margin-left: 6px;
+  cursor: pointer;
+  width: 110px;
+  background-color: blue;
+  color: white;
+}
